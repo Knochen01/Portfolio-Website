@@ -3,12 +3,6 @@ import React, { useState } from "react";
 const Contact = () => {
   const handleSubmit = (e) => {
     console.log("Form submitted");
-    // Reset form inputs
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
   };
 
   const handleChange = (e) => {
