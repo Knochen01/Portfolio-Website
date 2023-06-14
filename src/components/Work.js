@@ -23,7 +23,7 @@ const Work = () => {
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Car Rental Application
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -57,7 +57,7 @@ const Work = () => {
               {/* Hover Effect */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
+                  CryptoBase Application
                 </span>
                 <div className="pt-8 text-center">
                   <a
@@ -92,7 +92,7 @@ const Work = () => {
               {/* Hover Effect */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
+                  NextJs Application
                 </span>
                 <div className="pt-8 text-center">
                   <a
