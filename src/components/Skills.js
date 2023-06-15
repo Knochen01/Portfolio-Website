@@ -7,6 +7,7 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import firebase from "../assets/firebase.png";
 import git from "../assets/git.png";
+import next from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
@@ -52,6 +53,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={git} alt="TAILWIND icon" />
             <p className="my-4">Git</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={next} alt="TAILWIND icon" />
+            <p className="my-4">NextJS</p>
           </div>
         </div>
       </div>
