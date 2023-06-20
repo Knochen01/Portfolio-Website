@@ -5,7 +5,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from "../assets/RESUME 2023.pdf";
+import Resume from "../assets/RESUME.pdf";
 
 const Navbar = () => {
   const [nav, setNAv] = useState(false);
