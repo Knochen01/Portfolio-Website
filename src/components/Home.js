@@ -11,13 +11,13 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
           Marian Primak
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]  bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
           Front-End-Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I am a Front-End Developer specializing in buidling exceptional
-          digital experiecnes. Currently, I am focused on building responsive
-          web applications.
+          I am a Web-Developer specializing in buidling exceptional digital
+          experiecnes. Currently, I am focused on building responsive web
+          applications.
         </p>
         <ScrollLink to="work" smooth={true} duration={500}>
           <div>

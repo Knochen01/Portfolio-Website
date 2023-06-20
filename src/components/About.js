@@ -22,7 +22,7 @@ const About = () => {
           <div>
             <p>
               I am passionate about building excellent software that improves
-              the lives of those around m
+              the lives of those around me.
             </p>
           </div>
         </div>
