@@ -34,7 +34,10 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            Submit the form below or send me an email - knochen2@gmail.com
+            Submit the form below or send me an email -{" "}
+            <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent text-lg">
+              knochen2@gmail.com
+            </span>
           </p>
         </div>
         <input

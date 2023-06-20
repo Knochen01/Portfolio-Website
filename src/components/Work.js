@@ -1,6 +1,6 @@
 import React from "react";
-import CarRental from "../assets/projects/CarRental.png";
-import CryptoBase from "../assets/projects/CryptoBase.png";
+import Car2 from "../assets/projects/Car2.png";
+import Crypto2 from "../assets/projects/Crypto2.png";
 import Promptopia from "../assets/projects/Promptopia.png";
 
 const Work = () => {
@@ -17,7 +17,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${CarRental})` }}
+            style={{ backgroundImage: `url(${Car2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
@@ -51,7 +51,7 @@ const Work = () => {
 
           <div>
             <div
-              style={{ backgroundImage: `url(${CryptoBase})` }}
+              style={{ backgroundImage: `url(${Crypto2})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* Hover Effect */}
