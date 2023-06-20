@@ -5,6 +5,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
+import Resume from "/Users/computer/Desktop/JOB/Portfolio Website/src/assets/RESUME 2023.pdf";
 
 const Navbar = () => {
   const [nav, setNAv] = useState(false);
@@ -138,7 +139,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300s bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/marian-primak-7ab776121/overlay/1635519988067/single-media-viewer/?profileId=ACoAAB4xB_MBrR4r7GxokGA1XuVirbniNe5DcFA"
+              href={Resume}
               target="_blank"
               rel="noopener noreferrer"
             >
